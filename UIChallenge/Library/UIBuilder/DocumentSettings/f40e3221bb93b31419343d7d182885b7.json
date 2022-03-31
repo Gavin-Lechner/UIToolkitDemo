@@ -1,0 +1,32 @@
+{
+    "UxmlGuid": "f40e3221bb93b31419343d7d182885b7",
+    "UxmlPath": "Assets/UI/MainMenu.uxml",
+    "CanvasX": 0,
+    "CanvasY": 0,
+    "CanvasWidth": 1920,
+    "CanvasHeight": 1080,
+    "MatchGameView": true,
+    "ZoomScale": 0.75,
+    "PanOffset": {
+        "x": -248.34521484375,
+        "y": 79.12432861328125
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": true,
+    "CanvasBackgroundMode": 0,
+    "CanvasBackgroundColor": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 255.0
+    },
+    "CanvasBackgroundImage": {
+        "fileID": 2800000,
+        "guid": "63ca87b0953613045b38a2e77ee7122e",
+        "type": 3
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": ""
+}

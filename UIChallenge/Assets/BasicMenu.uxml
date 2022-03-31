@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="MainMenu" style="background-color: rgba(97, 74, 168, 255); height: 500px; width: 400px; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-width: 10px; border-bottom-color: rgb(73, 56, 125); border-left-width: 5px; border-left-color: rgb(73, 56, 125); border-right-color: rgb(73, 56, 125); border-top-color: rgb(73, 56, 125); align-items: center; justify-content: center;">
+        <ui:Label text="Main Menu" display-tooltip-when-elided="true" name="Title" enable-rich-text="false" style="position: absolute; top: 10px; left: auto; font-size: 35px; color: rgba(0, 0, 0, 255); -unity-font: url(&apos;Library/unity default resources&apos;); -unity-font-style: bold;" />
+        <ui:Button text="Play" display-tooltip-when-elided="true" name="PlayGame" tooltip="Testing Tooltips" class="menu-button" />
+        <ui:Button text="Quit Game" display-tooltip-when-elided="true" name="QuitGame" class="menu-button" />
+    </ui:VisualElement>
+</ui:UXML>
