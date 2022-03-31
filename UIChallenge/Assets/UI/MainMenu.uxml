@@ -2,11 +2,6 @@
     <ui:Template name="BasicMenu" src="/Assets/BasicMenu.uxml" />
     <Style src="UIStyle.uss" />
     <ui:VisualElement name="Background" style="flex-grow: 1; background-image: url(&apos;/Assets/Art/Background.png&apos;); align-items: center; justify-content: center;">
-        <ui:Instance template="BasicMenu" name="BasicMenu" style="display: none;" />
-        <ui:VisualElement name="Container" style="width: 350px;">
-            <ui:VisualElement name="Container_Header" style="flex-direction: row; font-size: 25px;">
-                <ui:Label text="LOADING...." display-tooltip-when-elided="true" name="LoadingLabel" style="flex-grow: 1; -unity-font-style: bold; color: rgba(0, 230, 255, 255);" />
-            </ui:VisualElement>
-        </ui:VisualElement>
+        <ui:Instance template="BasicMenu" name="BasicMenu" style="display: flex;" />
     </ui:VisualElement>
 </ui:UXML>
